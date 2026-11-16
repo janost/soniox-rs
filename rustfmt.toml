@@ -1,0 +1,5 @@
+# Matches how the code is written: edition 2024 import sorting, and short
+# struct literals, calls and chains kept on one line while they fit in 100
+# columns. CI runs `cargo fmt --all -- --check`.
+style_edition = "2024"
+use_small_heuristics = "Max"
